@@ -1,0 +1,204 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    padding: 20px;
+}
+.page{
+    min-height: 100vh;
+}
+.box{
+    outline: 3px solid rgb(238, 166, 11);  
+    width: 860px; 
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(207, 236, 101);
+  }
+  .img{
+      outline: 3px solid rgb(216, 231, 9);  
+      margin: 15px 7px 15px 20px;
+      width: 400px;
+      height: 400px;
+      float: left;
+      padding: 10px;
+      background-color: rgb(207, 231, 247);
+  }
+  .text{
+      outline: 3px solid rgb(27, 201, 36);
+      margin: 15px 20px 15px 7px;
+      width: 400px;
+      height: 400px;
+      float: right;
+      background-color: rgb(207, 231, 247);
+         
+  }
+  .div{
+      position: relative;
+      background-color: rgb(218, 30, 30);
+  }
+  .bt{
+      border-radius: 25%;
+      background-color: rgb(115, 115, 233);
+      color: chartreuse;
+      padding: 5px;
+      letter-spacing: 10px;
+      font-size: 25px;
+      font-style: italic;
+      text-shadow: rgb(252, 7, 7) 2px 2px 2px;
+      margin: 357px 137px;
+      display: inline;
+      position: absolute;
+      border: 1px solid #000;
+  }
+  .sp1{
+      color: blue;
+      font-size: 25px;
+      text-decoration: underline;
+      margin: 125px;
+      
+  }
+  .sp2{
+      color: blue;
+      font-size: 25px;
+      text-decoration: underline;
+      margin: 130px;
+  }
+  .sp3{
+      color: blue;
+      font-size: 25px;
+      text-decoration: underline;
+      margin: 160px;
+  }
+  p{
+      text-align: center;
+      font-size: 20px;
+  }
+  .box2{
+    outline: 3px solid rgb(11, 109, 238);  
+    width: 860px; 
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(236, 129, 222);
+    border-radius: 40PX;
+  }
+  .img2{
+      width: 400px;
+      height: 400px;
+      border: 3px dashed rgb(33, 9, 245);  
+      margin: 15px 7px 15px 15px;
+      padding: 15px; 
+      float: left;
+      background-color: rgb(231, 219, 219);
+      border-radius: 40PX;
+  }
+  .text2{
+      display: block;
+      width: 400px;
+      height: 400px;
+      float: right;
+      margin: 15px 15px 15px 7px;
+      border: 4px dashed rgb(33, 9, 245);
+      text-align: center;
+      padding: 10px;
+      background-color: rgb(231, 219, 219);
+      border-radius: 40PX;
+      letter-spacing: 3px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(113, 15, 241);
+         
+    }
+    .tel2{
+        border:4px dashed rgb(33, 9, 245);
+        text-align: center;
+        font-size: 25px;
+        padding: 5px;
+    }
+    .mail{
+       font-style: 20px;
+       margin: 70px 0 0 0; 
+    }
+    /* ----------------------------*/
+    .box3{
+        margin: 0 auto;
+        width: 820px;
+        min-height: 420px;
+        border: 3px solid rgb(243, 230, 230);
+        position: relative;
+        background-color: rgb(243, 230, 230);
+        border-radius: 10%;
+    }
+    .img3{
+        position: absolute;
+        left: 10px;
+        top: 8px;
+        width: 380px;
+        height: 380px;
+        border-radius: 55px;     
+    }
+    .img3:hover{
+        transform: rotate(3deg);
+        opacity: 0.8;
+    }
+    .text3{
+        width: 380px;
+        height: 380px;
+        border-radius: 55px;
+        text-align: center;
+        padding: 15px;
+        float: right;
+        color: rgb(7, 134, 156);
+    }
+    .p3{
+        font-size: 25px;
+    }
+    .h2{
+        text-decoration: underline;
+    }
+/* ---------------------------- */
+    .box4{
+    border: 6px solid rgb(47, 9, 117);  
+    max-width: 900px;
+    max-height: 900px;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(148, 147, 187);
+    
+    }
+    .img4{
+        margin: 5px;
+        width: 350px;
+        height: 350px;
+        border-radius: 20px;
+        border: 3px solid rgb(47, 9, 117);
+        float: left;
+ 
+    }
+    .text4{
+        text-align: center;
+        padding: 3px 0;
+        font-size: 25px;
+        color: rgb(47, 9, 117);
+    }
+
+    .text5{
+        font-size: 20px; 
+             
+    }
+    
+    span{
+        color: rgb(47, 9, 117);
+        font-style: italic;
+        font-size: 25px; 
+    }
+
+    
